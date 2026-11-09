@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#ed1c24"/></marker></defs>
+<rect width="1200" height="700" fill="#101114"/><text x="60" y="58" fill="#ed1c24" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="3">ABH SPORTS / SYSTEM ARCHITECTURE</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="70" y="125" width="260" height="112" rx="8" fill="#1c1d22" stroke="#ed1c24" stroke-width="2"/><text x="200" y="166" fill="#fff" font-size="20" font-weight="700">CUSTOMER BROWSER</text><text x="200" y="195" fill="#b6b7bd" font-size="14">Catalogue · Cart · Checkout</text>
+<rect x="70" y="390" width="260" height="112" rx="8" fill="#1c1d22" stroke="#ed1c24" stroke-width="2"/><text x="200" y="431" fill="#fff" font-size="20" font-weight="700">ADMIN VIEW</text><text x="200" y="460" fill="#b6b7bd" font-size="14">Products · Stock · Orders</text>
+<rect x="445" y="240" width="300" height="145" rx="8" fill="#24252b" stroke="#ed1c24" stroke-width="2"/><text x="595" y="283" fill="#fff" font-size="22" font-weight="700">NODE.JS + EXPRESS</text><text x="595" y="315" fill="#b6b7bd" font-size="15">API Routes / Validation</text><text x="595" y="341" fill="#b6b7bd" font-size="15">Stock · Orders · Admin Auth</text>
+<rect x="870" y="125" width="260" height="112" rx="8" fill="#1c1d22" stroke="#fff" stroke-width="1.5"/><text x="1000" y="166" fill="#fff" font-size="20" font-weight="700">PRODUCT DATA</text><text x="1000" y="195" fill="#b6b7bd" font-size="14">data/products.json</text>
+<rect x="870" y="390" width="260" height="112" rx="8" fill="#1c1d22" stroke="#fff" stroke-width="1.5"/><text x="1000" y="431" fill="#fff" font-size="20" font-weight="700">ORDER DATA</text><text x="1000" y="460" fill="#b6b7bd" font-size="14">data/orders.json</text>
+<rect x="445" y="540" width="300" height="70" rx="8" fill="#1c1d22" stroke="#51535b" stroke-width="1.5"/><text x="595" y="570" fill="#fff" font-size="17" font-weight="700">BROWSER LOCAL STORAGE</text><text x="595" y="591" fill="#b6b7bd" font-size="12">Cart · Wishlist · Saved details</text>
+</g>
+<g stroke="#ed1c24" stroke-width="2.5" fill="none" marker-end="url(#arrow)"><path d="M330 181 H410 V280 H445"/><path d="M330 446 H405 V345 H445"/><path d="M745 275 H810 V181 H870"/><path d="M745 345 H810 V446 H870"/><path d="M200 237 V315 H405 V320 H445"/><path d="M200 390 V350 H405"/></g>
+<g stroke="#8d8f96" stroke-width="1.5" fill="none" stroke-dasharray="6 6"><path d="M330 237 V575 H445"/><path d="M330 446 V575 H445"/></g>
+<text x="600" y="655" fill="#8d8f96" font-family="Arial,sans-serif" font-size="12" text-anchor="middle">Arrows indicate requests, management commands and stored data flow.</text>
+</svg>

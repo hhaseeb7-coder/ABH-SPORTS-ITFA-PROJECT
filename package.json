@@ -1,0 +1,8 @@
+{
+  "name": "abh-sports-ecommerce",
+  "version": "1.0.0",
+  "description": "ABH SPORTS cricket equipment mini e-commerce store - EF101 Project 18",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "dependencies": { "express": "^4.21.2" }
+}
